@@ -10,7 +10,7 @@ Clone Everything is a powershell script that clones all repositories from a spec
 ##### Usage:
 
 ```PowerShell
-./clone_everything.ps1 ORGANIZATION_NAME (Base_Directory)
+./clone_everything.ps1 USERNAME (Base_Directory)
 ```
 
 ##### Known issues:

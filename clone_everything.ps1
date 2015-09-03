@@ -3,7 +3,7 @@ if (($args.Count -ne 1) -and ($args.Count -ne 2))
 {
 	$curScript = $MyInvocation.MyCommand.Name;
 	Write-Host -ForeGroundColor Green "`nUsage: " -nonewline
-	Write-Host -ForeGroundColor Yellow "./$curScript ORGANIZATION_NAME " -nonewline
+	Write-Host -ForeGroundColor Yellow "./$curScript USERNAME " -nonewline
 	Write-Host -ForeGroundColor Gray "(Base_Directory)`n`n";
 	Write-Host -ForeGroundColor Green "(i) Clone to current directory:" -nonewline
 	Write-Host "`n`t./$curScript twitter";
