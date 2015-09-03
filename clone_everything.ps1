@@ -18,7 +18,7 @@ if (![string]::IsNullOrEmpty($args[1]))
 	Set-Location $args[1];
 }
 
-$url = "https://api.github.com/users/$org/repos?per_page=1";
+$url = "https://api.github.com/users/$org/repos?per_page=200";
 
 New-Item -ItemType Directory -Force -Path $org;
 Set-Location $org;
